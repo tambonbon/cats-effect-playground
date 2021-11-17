@@ -46,7 +46,7 @@ object Asyncronous {
       * Fiber: built-in support for async effects
       * Both above examples, the effect is simply a value of type IO[Unit] 
       * 
-      * Remarks: async NOT imply parallel or simultaneous, nor negate sequential (all fibers are sequences of effects)
+      * Remarks: async NOT imply parallel or simultaneous, nor negate sequential (all fibers are sequences of effects
       * ----> Asynchronous: "produces values/errors using a callback rather than `return/throw`"
       */
 }

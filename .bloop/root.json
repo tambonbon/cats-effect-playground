@@ -17,9 +17,9 @@
         "classpath": [
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/3.2.9/cats-effect_2.13-3.2.9.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_2.13/3.2.9/cats-effect-kernel_2.13-3.2.9.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.2.9/cats-effect-std_2.13-3.2.9.jar",
-            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
             "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar"
         ],
@@ -152,6 +152,23 @@
                 },
                 {
                     "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
                     "name": "cats-effect-kernel_2.13",
                     "version": "3.2.9",
                     "configurations": "default",
@@ -181,23 +198,6 @@
                             "name": "cats-effect-std_2.13",
                             "classifier": "sources",
                             "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.2.9/cats-effect-std_2.13-3.2.9-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "cats-core_2.13",
-                    "version": "2.6.1",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cats-core_2.13",
-                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar"
-                        },
-                        {
-                            "name": "cats-core_2.13",
-                            "classifier": "sources",
-                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1-sources.jar"
                         }
                     ]
                 },

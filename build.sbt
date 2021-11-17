@@ -10,7 +10,8 @@ lazy val root = (project in file("."))
     name := "cats-effect-playground",
     libraryDependencies ++= Seq(
     scalaTest % Test,
-    "org.typelevel" %% "cats-effect" % "3.2.9"
+    "org.typelevel" %% "cats-effect" % "3.2.9",
+    "org.typelevel" %% "cats-core" % "2.3.0"
     ),
     addCompilerPlugin("com.olegpy" %% "better-monadic-for" % "0.3.1")
   )

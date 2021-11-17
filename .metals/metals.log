@@ -3603,3 +3603,594 @@ WARNING: Unmatched cancel notification for request id 7018
 [0m2021.11.17 00:16:30 INFO  time: compiled root in 0.51s[0m
 [0m2021.11.17 00:16:36 INFO  compiling root (1 scala source)[0m
 [0m2021.11.17 00:16:36 INFO  time: compiled root in 0.41s[0m
+Nov 17, 2021 11:13:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7048
+Nov 17, 2021 11:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7050
+Nov 17, 2021 11:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7052
+Nov 17, 2021 11:17:31 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7051
+Nov 17, 2021 11:17:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7054
+Nov 17, 2021 11:17:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7055
+Nov 17, 2021 11:17:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7059
+Nov 17, 2021 11:17:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7056
+Nov 17, 2021 11:17:33 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7060
+Nov 17, 2021 11:22:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7152
+Nov 17, 2021 11:23:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7263
+Nov 17, 2021 11:23:30 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7270
+Nov 17, 2021 11:26:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7794
+Nov 17, 2021 11:33:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7911
+[0m2021.11.17 11:35:06 INFO  running '/Users/tammy/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/metals16718208796425192866/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.17 11:35:08 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.10)[0m
+[0m2021.11.17 11:35:08 INFO  [info] loading settings for project global-plugins from build.sbt ...[0m
+[0m2021.11.17 11:35:09 INFO  [info] loading global plugins from /Users/tammy/.sbt/1.0/plugins[0m
+[0m2021.11.17 11:35:11 INFO  [info] loading project definition from /Users/tammy/scalaProjects/cats-effect-playground/project[0m
+[0m2021.11.17 11:35:13 INFO  [success] Generated .bloop/cats-effect-playground-build.json[0m
+[0m2021.11.17 11:35:13 INFO  [success] Total time: 2 s, completed 17 Nov 2021, 11:35:13[0m
+[0m2021.11.17 11:35:13 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.17 11:35:13 INFO  [info] set current project to cats-effect-playground (in build file:/Users/tammy/scalaProjects/cats-effect-playground/)[0m
+[0m2021.11.17 11:35:14 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.11.17 11:35:14 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.11.17 11:35:14 INFO  [success] Total time: 0 s, completed 17 Nov 2021, 11:35:14[0m
+[0m2021.11.17 11:35:14 INFO  time: ran 'sbt bloopInstall' in 7.48s[0m
+[0m2021.11.17 11:35:14 INFO  Disconnecting from Bloop session...[0m
+[0m2021.11.17 11:35:14 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.11.17 11:35:16 ERROR timeout: build server 'bloop' during shutdown[0m
+[0m2021.11.17 11:35:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher10696016896167194098/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher10696016896167194098/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher10696016896167194098/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:35:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:35:16 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15693129725493904900/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15693129725493904900/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15693129725493904900/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:35:16 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:35:16 INFO  time: Connected to build server in 0.54s[0m
+[0m2021.11.17 11:35:16 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.17 11:35:18 INFO  time: indexed workspace in 1.51s[0m
+[0m2021.11.17 11:35:18 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:35:20 INFO  no build target: using presentation compiler with only scala-library: 2.13.7[0m
+[0m2021.11.17 11:35:20 INFO  time: compiled root in 2.04s[0m
+[0m2021.11.17 11:36:19 ERROR code navigation does not work for the file '/Users/tammy/scalaProjects/cats-effect-playground/src/main/scala/concepts/effects/Effect01.scala' because the SemanticDB file '/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root/bloop-bsp-clients-classes/classes-Metals-D5Tqlv17RJWWePPDIusCIw==/META-INF/semanticdb/src/main/scala/concepts/effects/Effect01.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.17 11:36:20 INFO  running '/Users/tammy/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/metals11506604439864618119/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.17 11:36:22 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.10)[0m
+[0m2021.11.17 11:36:22 INFO  [info] loading settings for project global-plugins from build.sbt ...[0m
+[0m2021.11.17 11:36:23 INFO  [info] loading global plugins from /Users/tammy/.sbt/1.0/plugins[0m
+[0m2021.11.17 11:36:25 INFO  [info] loading project definition from /Users/tammy/scalaProjects/cats-effect-playground/project[0m
+[0m2021.11.17 11:36:26 INFO  [success] Generated .bloop/cats-effect-playground-build.json[0m
+[0m2021.11.17 11:36:26 INFO  [success] Total time: 2 s, completed 17 Nov 2021, 11:36:27[0m
+[0m2021.11.17 11:36:26 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.17 11:36:26 INFO  [info] set current project to cats-effect-playground (in build file:/Users/tammy/scalaProjects/cats-effect-playground/)[0m
+[0m2021.11.17 11:36:26 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.11.17 11:36:26 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.11.17 11:36:26 INFO  [success] Total time: 0 s, completed 17 Nov 2021, 11:36:27[0m
+[0m2021.11.17 11:36:27 INFO  time: ran 'sbt bloopInstall' in 6.87s[0m
+[0m2021.11.17 11:36:27 INFO  Disconnecting from Bloop session...[0m
+[0m2021.11.17 11:36:27 INFO  Shut down connection with build server.[0m
+[0m2021.11.17 11:36:27 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.11.17 11:36:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher2003760362295594210/bsp.socket'...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher2003760362295594210/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher2003760362295594210/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:36:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:36:27 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher7332643354785604612/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher7332643354785604612/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher7332643354785604612/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:36:27 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:36:27 INFO  time: Connected to build server in 0.11s[0m
+[0m2021.11.17 11:36:27 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.17 11:36:27 INFO  time: Imported build in 0.11s[0m
+[0m2021.11.17 11:36:29 INFO  time: indexed workspace in 1.28s[0m
+[0m2021.11.17 11:36:29 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:36:31 INFO  no build target: using presentation compiler with only scala-library: 2.13.7[0m
+[0m2021.11.17 11:36:31 INFO  time: compiled root in 1.86s[0m
+[0m2021.11.17 11:37:20 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:37:20 INFO  time: compiled root in 0.21s[0m
+[0m2021.11.17 11:37:27 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:37:27 INFO  time: compiled root in 0.19s[0m
+[0m2021.11.17 11:37:28 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:37:28 INFO  time: compiled root in 0.38s[0m
+[0m2021.11.17 11:37:40 ERROR code navigation does not work for the file '/Users/tammy/scalaProjects/cats-effect-playground/src/main/scala/concepts/effects/Effect01.scala' because the SemanticDB file '/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root/bloop-bsp-clients-classes/classes-Metals-_-45I0jjSrSpKBUQjI5P7g==/META-INF/semanticdb/src/main/scala/concepts/effects/Effect01.scala.semanticdb' doesn't exist. There can be many reasons for this error. [0m
+[0m2021.11.17 11:37:41 INFO  running '/Users/tammy/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/metals17149322161613760951/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.17 11:37:46 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.10)[0m
+[0m2021.11.17 11:37:46 INFO  [info] loading settings for project global-plugins from build.sbt ...[0m
+[0m2021.11.17 11:37:47 INFO  [info] loading global plugins from /Users/tammy/.sbt/1.0/plugins[0m
+[0m2021.11.17 11:37:49 INFO  [info] loading project definition from /Users/tammy/scalaProjects/cats-effect-playground/project[0m
+[0m2021.11.17 11:37:50 INFO  [success] Generated .bloop/cats-effect-playground-build.json[0m
+[0m2021.11.17 11:37:50 INFO  [success] Total time: 2 s, completed 17 Nov 2021, 11:37:50[0m
+[0m2021.11.17 11:37:50 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.17 11:37:50 INFO  [info] set current project to cats-effect-playground (in build file:/Users/tammy/scalaProjects/cats-effect-playground/)[0m
+[0m2021.11.17 11:37:50 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.11.17 11:37:50 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.11.17 11:37:50 INFO  [success] Total time: 0 s, completed 17 Nov 2021, 11:37:51[0m
+[0m2021.11.17 11:37:51 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.11.17 11:37:51 INFO  Disconnecting from Bloop session...[0m
+[0m2021.11.17 11:37:51 INFO  Shut down connection with build server.[0m
+[0m2021.11.17 11:37:51 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.11.17 11:37:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher3075288836212495481/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher3075288836212495481/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher3075288836212495481/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:37:51 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher6843811915882046813/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher6843811915882046813/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher6843811915882046813/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:37:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:37:51 INFO  time: Connected to build server in 65ms[0m
+[0m2021.11.17 11:37:51 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.17 11:37:52 INFO  time: indexed workspace in 1.32s[0m
+[0m2021.11.17 11:37:52 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:37:54 INFO  no build target: using presentation compiler with only scala-library: 2.13.7[0m
+[0m2021.11.17 11:37:54 INFO  time: compiled root in 1.91s[0m
+[0m2021.11.17 11:37:56 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:37:56 INFO  time: compiled root in 0.32s[0m
+Nov 17, 2021 11:38:02 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 17, 2021 11:38:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:410)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+Nov 17, 2021 11:38:02 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Nov 17, 2021 11:38:02 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+scala.MatchError: implicit class <error> extends  (of class scala.reflect.internal.Trees$ClassDef)
+	at scala.tools.nsc.typechecker.Unapplies.constrParamss(Unapplies.scala:88)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth(Unapplies.scala:139)
+	at scala.tools.nsc.typechecker.Unapplies.factoryMeth$(Unapplies.scala:136)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.factoryMeth(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper(MethodSynthesis.scala:238)
+	at scala.tools.nsc.typechecker.MethodSynthesis$MethodSynth.enterImplicitWrapper$(MethodSynthesis.scala:237)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterImplicitWrapper(Namers.scala:57)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym(Global.scala:95)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$InteractiveNamer.enterExistingSym$(Global.scala:81)
+	at scala.tools.nsc.interactive.InteractiveAnalyzer$$anon$2.enterExistingSym(Global.scala:51)
+	at scala.tools.nsc.typechecker.Namers$Namer.standardEnterSym(Namers.scala:313)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym(AnalyzerPlugins.scala:495)
+	at scala.tools.nsc.typechecker.AnalyzerPlugins.pluginsEnterSym$(AnalyzerPlugins.scala:494)
+	at scala.meta.internal.pc.MetalsGlobal$MetalsInteractiveAnalyzer.pluginsEnterSym(MetalsGlobal.scala:59)
+	at scala.tools.nsc.typechecker.Namers$Namer.enterSym(Namers.scala:287)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSym(Typers.scala:1985)
+	at scala.tools.nsc.typechecker.Typers$Typer.enterSyms(Typers.scala:1980)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedTemplate(Typers.scala:2040)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedModuleDef(Typers.scala:1940)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5952)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStat$1(Typers.scala:6119)
+	at scala.tools.nsc.typechecker.Typers$Typer.$anonfun$typedStats$8(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedStats(Typers.scala:3410)
+	at scala.tools.nsc.typechecker.Typers$Typer.typedPackageDef$1(Typers.scala:5634)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed1(Typers.scala:5954)
+	at scala.tools.nsc.typechecker.Typers$Typer.typed(Typers.scala:6041)
+	at scala.tools.nsc.typechecker.Analyzer$typerFactory$TyperPhase.apply(Analyzer.scala:117)
+	at scala.tools.nsc.Global$GlobalPhase.applyPhase(Global.scala:459)
+	at scala.tools.nsc.interactive.Global$TyperRun.applyPhase(Global.scala:1349)
+	at scala.tools.nsc.interactive.Global$TyperRun.typeCheck(Global.scala:1342)
+	at scala.tools.nsc.interactive.Global.typeCheck(Global.scala:680)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:829)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1212)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:410)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:58)
+
+[0m2021.11.17 11:38:05 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:38:05 INFO  time: compiled root in 0.14s[0m
+[0m2021.11.17 11:38:08 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:38:08 INFO  time: compiled root in 95ms[0m
+[0m2021.11.17 11:38:19 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:38:19 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.17 11:38:25 INFO  compiling root (2 scala sources)[0m
+[0m2021.11.17 11:38:27 INFO  time: compiled root in 1.11s[0m
+[0m2021.11.17 11:38:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:38:45 INFO  time: compiled root in 0.87s[0m
+[0m2021.11.17 11:38:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:38:51 INFO  time: compiled root in 0.1s[0m
+[0m2021.11.17 11:38:53 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:38:53 INFO  time: compiled root in 0.81s[0m
+[0m2021.11.17 11:38:55 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 1m 4.414s)[0m
+[0m2021.11.17 11:38:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.11.17 11:38:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.11.17 11:38:58 INFO  Starting debug proxy for [concepts.effects.Effect01][0m
+[0m2021.11.17 11:39:01 INFO  Trying to attach to remote debuggee VM localhost:63310 .[0m
+[0m2021.11.17 11:39:01 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.11.17 11:39:01 INFO  Canceling debug proxy for [concepts.effects.Effect01][0m
+[0m2021.11.17 11:39:01 INFO  Closing debug server tcp://0.0.0.0:63307[0m
+[0m2021.11.17 11:39:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:39:08 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 1m 18.041s)[0m
+[0m2021.11.17 11:39:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:39:08 INFO  time: compiled root in 0.2s[0m
+[0m2021.11.17 11:39:10 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 1m 19.255s)[0m
+[0m2021.11.17 11:39:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.11.17 11:39:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.11.17 11:39:11 INFO  Starting debug proxy for [concepts.effects.Effect01][0m
+[0m2021.11.17 11:39:15 INFO  Trying to attach to remote debuggee VM localhost:63323 .[0m
+[0m2021.11.17 11:39:15 INFO  Attaching to debuggee VM succeeded.[0m
+Nov 17, 2021 11:39:15 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+[0m2021.11.17 11:39:16 INFO  Canceling debug proxy for [concepts.effects.Effect01][0m
+[0m2021.11.17 11:39:15 INFO  Closing debug server tcp://0.0.0.0:63320[0m
+[0m2021.11.17 11:40:12 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:12 INFO  time: compiled root in 0.85s[0m
+[0m2021.11.17 11:40:14 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:14 INFO  time: compiled root in 0.6s[0m
+[0m2021.11.17 11:40:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:16 INFO  time: compiled root in 0.62s[0m
+[0m2021.11.17 11:40:21 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:21 INFO  time: compiled root in 0.61s[0m
+[0m2021.11.17 11:40:28 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:28 INFO  time: compiled root in 44ms[0m
+[0m2021.11.17 11:40:32 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:32 INFO  time: compiled root in 0.6s[0m
+[0m2021.11.17 11:40:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:38 INFO  time: compiled root in 0.61s[0m
+[0m2021.11.17 11:40:44 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:40:44 INFO  time: compiled root in 0.63s[0m
+Nov 17, 2021 11:41:27 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8741
+Nov 17, 2021 11:41:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8747
+[0m2021.11.17 11:42:06 INFO  running '/Users/tammy/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/metals14916353080851520834/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.11.17 11:42:07 INFO  [info] welcome to sbt 1.5.5 (AdoptOpenJDK Java 11.0.10)[0m
+[0m2021.11.17 11:42:07 INFO  [info] loading settings for project global-plugins from build.sbt ...[0m
+[0m2021.11.17 11:42:09 INFO  [info] loading global plugins from /Users/tammy/.sbt/1.0/plugins[0m
+[0m2021.11.17 11:42:11 INFO  [info] loading project definition from /Users/tammy/scalaProjects/cats-effect-playground/project[0m
+[0m2021.11.17 11:42:13 INFO  [success] Generated .bloop/cats-effect-playground-build.json[0m
+[0m2021.11.17 11:42:13 INFO  [success] Total time: 2 s, completed 17 Nov 2021, 11:42:13[0m
+[0m2021.11.17 11:42:16 INFO  [info] loading settings for project root from build.sbt ...[0m
+[0m2021.11.17 11:42:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:16 INFO  time: compiled root in 67ms[0m
+[0m2021.11.17 11:42:16 INFO  [info] set current project to cats-effect-playground (in build file:/Users/tammy/scalaProjects/cats-effect-playground/)[0m
+[0m2021.11.17 11:42:16 INFO  [success] Generated .bloop/root.json[0m
+[0m2021.11.17 11:42:16 INFO  [success] Generated .bloop/root-test.json[0m
+[0m2021.11.17 11:42:16 INFO  [success] Total time: 1 s, completed 17 Nov 2021, 11:42:17[0m
+[0m2021.11.17 11:42:17 INFO  time: ran 'sbt bloopInstall' in 10s[0m
+[0m2021.11.17 11:42:17 INFO  Disconnecting from Bloop session...[0m
+[0m2021.11.17 11:42:17 INFO  Shut down connection with build server.[0m
+[0m2021.11.17 11:42:17 INFO  Shut down connection with build server.[0m
+[0m2021.11.17 11:42:17 INFO  Attempting to connect to the build server...[0m
+No more data in the client stdin, exiting...
+No more data in the client stdin, exiting...
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher13445581466686312926/bsp.socket'...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+Waiting for the bsp connection to come up...
+No more data in the server stdin, exiting...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Loading 2 projects from '/Users/tammy/scalaProjects/cats-effect-playground/.bloop'...
+[0m[32m[D][0m Loading project from '/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root.json'
+[0m[32m[D][0m Loading project from '/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root-test.json'
+[0m[32m[D][0m Configured Scala SemanticDB in projects 'root-test', 'root'
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher13445581466686312926/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher13445581466686312926/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:42:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:42:17 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15738685475632863368/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15738685475632863368/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher15738685475632863368/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.11.17 11:42:17 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.11.17 11:42:17 INFO  time: Connected to build server in 54ms[0m
+[0m2021.11.17 11:42:17 INFO  Connected to Build server: Bloop v1.4.11[0m
+[0m2021.11.17 11:42:19 INFO  time: indexed workspace in 1.67s[0m
+[0m2021.11.17 11:42:19 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:20 INFO  no build target: using presentation compiler with only scala-library: 2.13.7[0m
+[0m2021.11.17 11:42:20 INFO  time: compiled root in 1.15s[0m
+[0m2021.11.17 11:42:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:20 INFO  time: compiled root in 1ms[0m
+[0m2021.11.17 11:42:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:20 INFO  time: compiled root in 54ms[0m
+[0m2021.11.17 11:42:22 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:22 INFO  time: compiled root in 0.72s[0m
+[0m2021.11.17 11:42:33 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:33 INFO  time: compiled root in 0.12s[0m
+[0m2021.11.17 11:42:36 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:36 INFO  time: compiled root in 0.92s[0m
+[0m2021.11.17 11:42:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:38 INFO  time: compiled root in 0.66s[0m
+[0m2021.11.17 11:42:43 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:43 INFO  time: compiled root in 0.71s[0m
+[0m2021.11.17 11:42:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:46 INFO  time: compiled root in 0.71s[0m
+[0m2021.11.17 11:42:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:48 INFO  time: compiled root in 0.61s[0m
+[0m2021.11.17 11:42:50 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:50 INFO  time: compiled root in 0.77s[0m
+[0m2021.11.17 11:42:57 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:42:57 INFO  time: compiled root in 0.7s[0m
+[0m2021.11.17 11:43:05 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:05 INFO  time: compiled root in 0.82s[0m
+Nov 17, 2021 11:43:06 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9132
+[0m2021.11.17 11:43:06 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:06 INFO  time: compiled root in 0.77s[0m
+[0m2021.11.17 11:43:13 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:13 INFO  time: compiled root in 59ms[0m
+[0m2021.11.17 11:43:14 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:14 INFO  time: compiled root in 49ms[0m
+[0m2021.11.17 11:43:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:25 INFO  time: compiled root in 0.16s[0m
+[0m2021.11.17 11:43:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:29 INFO  time: compiled root in 0.17s[0m
+[0m2021.11.17 11:43:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:38 INFO  time: compiled root in 0.88s[0m
+[0m2021.11.17 11:43:45 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:45 INFO  time: compiled root in 0.8s[0m
+[0m2021.11.17 11:43:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:51 INFO  time: compiled root in 0.75s[0m
+[0m2021.11.17 11:43:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:43:52 INFO  time: compiled root in 0.73s[0m
+[0m2021.11.17 11:44:01 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:44:01 INFO  time: compiled root in 0.83s[0m
+[0m2021.11.17 11:44:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 11:44:11 INFO  time: compiled root in 0.87s[0m
+[0m2021.11.17 12:02:19 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:02:21 INFO  time: compiled root in 1.84s[0m
+[0m2021.11.17 12:02:22 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:02:22 INFO  time: compiled root in 0.99s[0m
+[0m2021.11.17 12:02:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:02:30 INFO  time: compiled root in 1.06s[0m
+[0m2021.11.17 12:02:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:02:36 INFO  time: compiled root in 1.12s[0m
+[0m2021.11.17 12:02:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:02:59 INFO  time: compiled root in 1.07s[0m
+[0m2021.11.17 12:03:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:01 INFO  time: compiled root in 1.04s[0m
+[0m2021.11.17 12:03:09 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:09 INFO  time: compiled root in 0.86s[0m
+[0m2021.11.17 12:03:15 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:15 INFO  time: compiled root in 0.7s[0m
+[0m2021.11.17 12:03:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:20 INFO  time: compiled root in 0.69s[0m
+[0m2021.11.17 12:03:26 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:26 INFO  time: compiled root in 0.69s[0m
+[0m2021.11.17 12:03:30 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:30 INFO  time: compiled root in 0.68s[0m
+[0m2021.11.17 12:03:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:35 INFO  time: compiled root in 0.72s[0m
+[0m2021.11.17 12:03:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:51 INFO  time: compiled root in 0.53s[0m
+[0m2021.11.17 12:03:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:03:54 INFO  time: compiled root in 0.45s[0m
+[0m2021.11.17 12:04:16 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:04:16 INFO  time: compiled root in 0.49s[0m
+[0m2021.11.17 12:04:19 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:04:19 INFO  time: compiled root in 0.52s[0m
+[0m2021.11.17 12:04:26 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:04:26 INFO  time: compiled root in 0.54s[0m
+Nov 17, 2021 12:04:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9699
+[0m2021.11.17 12:04:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:04:34 INFO  time: compiled root in 0.43s[0m
+[0m2021.11.17 12:04:43 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:04:43 INFO  time: compiled root in 0.42s[0m
+Nov 17, 2021 12:20:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9760
+[0m2021.11.17 12:20:31 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:20:31 INFO  time: compiled root in 0.77s[0m
+[0m2021.11.17 12:20:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:20:38 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:20:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:20:46 INFO  time: compiled root in 0.52s[0m
+[0m2021.11.17 12:20:47 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:20:47 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:20:59 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:20:59 INFO  time: compiled root in 0.53s[0m
+[0m2021.11.17 12:21:05 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:05 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:21:08 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:08 INFO  time: compiled root in 0.54s[0m
+[0m2021.11.17 12:21:12 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:12 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:21:14 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:14 INFO  time: compiled root in 0.5s[0m
+[0m2021.11.17 12:21:21 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:21 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:21:28 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:28 INFO  time: compiled root in 0.53s[0m
+[0m2021.11.17 12:21:32 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:32 INFO  time: compiled root in 0.63s[0m
+[0m2021.11.17 12:21:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:35 INFO  time: compiled root in 0.73s[0m
+[0m2021.11.17 12:21:51 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:51 INFO  time: compiled root in 0.5s[0m
+[0m2021.11.17 12:21:55 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:55 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:21:59 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:21:59 INFO  time: compiled root in 0.46s[0m
+[0m2021.11.17 12:22:03 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:03 INFO  time: compiled root in 0.41s[0m
+[0m2021.11.17 12:22:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:11 INFO  time: compiled root in 0.41s[0m
+[0m2021.11.17 12:22:15 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:15 INFO  time: compiled root in 0.47s[0m
+[0m2021.11.17 12:22:25 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:26 INFO  time: compiled root in 1.42s[0m
+[0m2021.11.17 12:22:30 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:30 INFO  time: compiled root in 0.42s[0m
+[0m2021.11.17 12:22:33 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:33 INFO  time: compiled root in 0.42s[0m
+[0m2021.11.17 12:22:39 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:22:39 INFO  time: compiled root in 0.43s[0m
+[0m2021.11.17 12:23:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:23:02 INFO  time: compiled root in 0.45s[0m
+[0m2021.11.17 12:23:53 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:23:53 INFO  time: compiled root in 0.42s[0m
+[0m2021.11.17 12:23:55 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:23:55 INFO  time: compiled root in 0.41s[0m
+Nov 17, 2021 12:23:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10211
+[0m2021.11.17 12:24:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:00 INFO  time: compiled root in 0.42s[0m
+[0m2021.11.17 12:24:07 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:07 INFO  time: compiled root in 0.43s[0m
+[0m2021.11.17 12:24:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:11 INFO  time: compiled root in 0.44s[0m
+[0m2021.11.17 12:24:29 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:29 INFO  time: compiled root in 0.46s[0m
+[0m2021.11.17 12:24:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:34 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:24:37 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:37 INFO  time: compiled root in 0.5s[0m
+Nov 17, 2021 12:24:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10439
+[0m2021.11.17 12:24:54 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:54 INFO  time: compiled root in 0.42s[0m
+[0m2021.11.17 12:24:57 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:24:58 INFO  time: compiled root in 1.92s[0m
+[0m2021.11.17 12:25:14 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:14 INFO  time: compiled root in 0.38s[0m
+[0m2021.11.17 12:25:20 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:20 INFO  time: compiled root in 0.39s[0m
+[0m2021.11.17 12:25:27 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:27 INFO  time: compiled root in 0.39s[0m
+[0m2021.11.17 12:25:37 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:37 INFO  time: compiled root in 0.4s[0m
+[0m2021.11.17 12:25:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:48 INFO  time: compiled root in 0.52s[0m
+[0m2021.11.17 12:25:58 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:25:58 INFO  time: compiled root in 0.39s[0m
+[0m2021.11.17 12:26:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:00 INFO  time: compiled root in 0.41s[0m
+[0m2021.11.17 12:26:03 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:03 INFO  time: compiled root in 0.4s[0m
+[0m2021.11.17 12:26:07 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:07 INFO  time: compiled root in 0.43s[0m
+[0m2021.11.17 12:26:09 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:09 INFO  time: compiled root in 0.41s[0m
+[0m2021.11.17 12:26:21 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:21 INFO  time: compiled root in 0.4s[0m
+[0m2021.11.17 12:26:34 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:34 INFO  time: compiled root in 0.4s[0m
+[0m2021.11.17 12:26:37 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:37 INFO  time: compiled root in 0.48s[0m
+[0m2021.11.17 12:26:44 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:44 INFO  time: compiled root in 52ms[0m
+[0m2021.11.17 12:26:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:46 WARN  1 deprecation (since 2.11.0); re-run with -deprecation for details[0m
+[0m2021.11.17 12:26:46 INFO  time: compiled root in 0.59s[0m
+[0m2021.11.17 12:26:52 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:52 INFO  time: compiled root in 62ms[0m
+[0m2021.11.17 12:26:55 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:26:55 INFO  time: compiled root in 58ms[0m
+[0m2021.11.17 12:27:00 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:00 INFO  time: compiled root in 56ms[0m
+[0m2021.11.17 12:27:02 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:02 INFO  time: compiled root in 62ms[0m
+[0m2021.11.17 12:27:05 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:05 INFO  time: compiled root in 78ms[0m
+[0m2021.11.17 12:27:07 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:07 INFO  time: compiled root in 0.52s[0m
+[0m2021.11.17 12:27:11 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:11 INFO  time: compiled root in 0.48s[0m
+[0m2021.11.17 12:27:23 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:23 INFO  time: compiled root in 0.51s[0m
+[0m2021.11.17 12:27:35 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:35 INFO  time: compiled root in 0.55s[0m
+[0m2021.11.17 12:27:38 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:38 INFO  time: compiled root in 0.59s[0m
+[0m2021.11.17 12:27:40 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:40 INFO  time: compiled root in 0.49s[0m
+[0m2021.11.17 12:27:46 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:46 INFO  time: compiled root in 0.53s[0m
+[0m2021.11.17 12:27:48 INFO  compiling root (1 scala source)[0m
+[0m2021.11.17 12:27:48 INFO  time: compiled root in 0.54s[0m
