@@ -53,6 +53,10 @@
             "name": "scala-compiler",
             "version": "2.13.7",
             "options": [
+                "-feature",
+                "-deprecation",
+                "-unchecked",
+                "-language:postfixOps",
                 "-Xplugin:/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olegpy/better-monadic-for_2.13/0.3.1/better-monadic-for_2.13-0.3.1.jar"
             ],
             "jars": [
