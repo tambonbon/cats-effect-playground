@@ -1,0 +1,261 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "root",
+        "directory": "/Users/tammy/scalaProjects/cats-effect-playground",
+        "workspaceDir": "/Users/tammy/scalaProjects/cats-effect-playground",
+        "sources": [
+            "/Users/tammy/scalaProjects/cats-effect-playground/src/main/scala",
+            "/Users/tammy/scalaProjects/cats-effect-playground/src/main/scala-2.13",
+            "/Users/tammy/scalaProjects/cats-effect-playground/src/main/scala-2",
+            "/Users/tammy/scalaProjects/cats-effect-playground/src/main/java",
+            "/Users/tammy/scalaProjects/cats-effect-playground/target/scala-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            
+        ],
+        "classpath": [
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/3.2.9/cats-effect_2.13-3.2.9.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_2.13/3.2.9/cats-effect-kernel_2.13-3.2.9.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.2.9/cats-effect-std_2.13-3.2.9.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar",
+            "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar"
+        ],
+        "out": "/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root",
+        "classesDir": "/Users/tammy/scalaProjects/cats-effect-playground/.bloop/root/scala-2.13/classes",
+        "resources": [
+            "/Users/tammy/scalaProjects/cats-effect-playground/src/main/resources",
+            "/Users/tammy/scalaProjects/cats-effect-playground/target/scala-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.7",
+            "options": [
+                "-Xplugin:/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/olegpy/better-monadic-for_2.13/0.3.1/better-monadic-for_2.13-0.3.1.jar"
+            ],
+            "jars": [
+                "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar",
+                "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.7/scala-compiler-2.13.7.jar",
+                "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.7/scala-reflect-2.13.7.jar",
+                "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.20.0/jline-3.20.0.jar",
+                "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.8.0/jna-5.8.0.jar"
+            ],
+            "analysis": "/Users/tammy/scalaProjects/cats-effect-playground/target/streams/compile/bloopAnalysisOut/_global/streams/inc_compile_2.13.zip",
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/Users/tammy/Library/Java/JavaVirtualMachines/adopt-openjdk-11.0.10/Contents/Home",
+                "options": [
+                    "-Duser.dir=/Users/tammy/scalaProjects/cats-effect-playground"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect_2.13",
+                    "version": "3.2.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/3.2.9/cats-effect_2.13-3.2.9.jar"
+                        },
+                        {
+                            "name": "cats-effect_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_2.13/3.2.9/cats-effect_2.13-3.2.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-kernel_2.13",
+                    "version": "3.2.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-kernel_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_2.13/3.2.9/cats-effect-kernel_2.13-3.2.9.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_2.13/3.2.9/cats-effect-kernel_2.13-3.2.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-std_2.13",
+                    "version": "3.2.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-std_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.2.9/cats-effect-std_2.13-3.2.9.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_2.13/3.2.9/cats-effect-std_2.13-3.2.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-core_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.13/2.6.1/cats-core_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.13",
+                    "version": "2.6.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.13/2.6.1/cats-kernel_2.13-2.6.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "simulacrum-scalafix-annotations_2.13",
+                    "version": "0.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4.jar"
+                        },
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.13",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.13/0.5.4/simulacrum-scalafix-annotations_2.13-0.5.4-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.7",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/Users/tammy/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.7/scala-library-2.13.7-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}
