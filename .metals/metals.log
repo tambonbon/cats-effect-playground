@@ -8181,3 +8181,379 @@ WARNING: Unmatched cancel notification for request id 7026
 [0m2021.12.15 12:55:34 INFO  time: compiled root in 0.84s[0m
 Dec 15, 2021 12:55:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 7091
+[0m2021.12.15 13:03:06 INFO  shutting down Metals[0m
+[0m2021.12.15 13:03:06 INFO  Shut down connection with build server.[0m
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the client stdin, exiting...
+[0m2021.12.15 13:03:06 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+No more data in the server stdin, exiting...
+No more data in the server stdin, exiting...
+[0m2021.12.20 16:10:08 INFO  Started: Metals version 0.10.9 in workspace '/Users/tammy/scalaProjects/cats-effect-playground' for client Visual Studio Code 1.63.2.[0m
+[0m2021.12.20 16:10:09 INFO  time: initialize in 1.29s[0m
+[0m2021.12.20 16:10:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher1492518011871606167/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m2021.12.20 16:10:09 INFO  skipping build import with status 'Installed'[0m
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher1492518011871606167/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher1492518011871606167/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.20 16:10:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.12.20 16:10:10 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher5984321109425591034/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher5984321109425591034/bsp.socket...
+The server is listening for incoming connections at local:///var/folders/hr/6qt2knms3sdg61hlg9bvpl4h0000gq/T/bsp-launcher5984321109425591034/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.12.20 16:10:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+[0m2021.12.20 16:10:10 INFO  time: Connected to build server in 0.4s[0m
+[0m2021.12.20 16:10:10 INFO  Connected to Build server: Bloop v1.4.11[0m
+Default dialect is deprecated; use explicit: [Scala211,scala212,Scala212Source3,scala213,Scala213Source3,Sbt0137,Sbt1,scala3]
+Also see https://scalameta.org/scalafmt/docs/configuration.html#scala-dialects"
+[0m2021.12.20 16:10:14 INFO  time: indexed workspace in 3.75s[0m
+[0m2021.12.20 16:10:15 INFO  no build target: using presentation compiler with only scala-library: 2.13.7[0m
+[0m2021.12.20 16:20:15 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 16:20:18 INFO  time: compiled root in 2.66s[0m
+[0m2021.12.20 19:09:12 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:14 INFO  time: compiled root in 1.92s[0m
+[0m2021.12.20 19:09:24 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:24 INFO  time: compiled root in 0.91s[0m
+[0m2021.12.20 19:09:30 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:30 INFO  time: compiled root in 0.9s[0m
+[0m2021.12.20 19:09:33 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:33 INFO  time: compiled root in 0.75s[0m
+[0m2021.12.20 19:09:51 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:51 INFO  time: compiled root in 0.66s[0m
+[0m2021.12.20 19:09:58 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:09:59 INFO  time: compiled root in 1.02s[0m
+[0m2021.12.20 19:10:04 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 19:10:04 INFO  time: compiled root in 0.79s[0m
+[0m2021.12.20 21:29:50 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:29:52 INFO  time: compiled root in 1.75s[0m
+[0m2021.12.20 21:29:53 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:29:53 INFO  time: compiled root in 0.87s[0m
+[0m2021.12.20 21:29:55 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:29:55 INFO  time: compiled root in 0.9s[0m
+[0m2021.12.20 21:30:01 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:01 INFO  time: compiled root in 0.78s[0m
+[0m2021.12.20 21:30:05 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:05 INFO  time: compiled root in 0.66s[0m
+Dec 20, 2021 9:30:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 339
+[0m2021.12.20 21:30:15 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:15 INFO  time: compiled root in 0.75s[0m
+[0m2021.12.20 21:30:26 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:26 INFO  time: compiled root in 0.18s[0m
+[0m2021.12.20 21:30:30 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:30 INFO  time: compiled root in 0.37s[0m
+[0m2021.12.20 21:30:38 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:38 INFO  time: compiled root in 0.22s[0m
+[0m2021.12.20 21:30:40 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:30:40 INFO  time: compiled root in 0.18s[0m
+[0m2021.12.20 21:31:06 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:07 INFO  time: compiled root in 1.08s[0m
+[0m2021.12.20 21:31:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:09 INFO  time: compiled root in 93ms[0m
+[0m2021.12.20 21:31:21 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:21 INFO  time: compiled root in 85ms[0m
+[0m2021.12.20 21:31:24 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:24 INFO  time: compiled root in 0.1s[0m
+Dec 20, 2021 9:31:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 546
+[0m2021.12.20 21:31:29 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:29 INFO  time: compiled root in 69ms[0m
+[0m2021.12.20 21:31:31 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:31 INFO  time: compiled root in 71ms[0m
+[0m2021.12.20 21:31:33 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:33 INFO  time: compiled root in 62ms[0m
+[0m2021.12.20 21:31:35 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:35 INFO  time: compiled root in 55ms[0m
+[0m2021.12.20 21:31:47 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:47 INFO  time: compiled root in 64ms[0m
+[0m2021.12.20 21:31:53 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:31:53 INFO  time: compiled root in 61ms[0m
+[0m2021.12.20 21:32:02 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:02 INFO  time: compiled root in 54ms[0m
+Dec 20, 2021 9:32:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 742
+[0m2021.12.20 21:32:08 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:08 INFO  time: compiled root in 0.1s[0m
+[0m2021.12.20 21:32:13 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:13 INFO  time: compiled root in 0.84s[0m
+[0m2021.12.20 21:32:17 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:17 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:32:45 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:45 INFO  time: compiled root in 0.79s[0m
+[0m2021.12.20 21:32:47 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:47 INFO  time: compiled root in 0.71s[0m
+[0m2021.12.20 21:32:49 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:49 INFO  time: compiled root in 61ms[0m
+[0m2021.12.20 21:32:53 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:53 INFO  time: compiled root in 0.76s[0m
+[0m2021.12.20 21:32:56 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:56 INFO  time: compiled root in 0.87s[0m
+[0m2021.12.20 21:32:58 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:32:58 INFO  time: compiled root in 0.91s[0m
+[0m2021.12.20 21:33:03 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:03 INFO  time: compiled root in 0.82s[0m
+[0m2021.12.20 21:33:07 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:07 INFO  time: compiled root in 63ms[0m
+[0m2021.12.20 21:33:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:09 INFO  time: compiled root in 0.84s[0m
+[0m2021.12.20 21:33:12 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:12 INFO  time: compiled root in 0.78s[0m
+[0m2021.12.20 21:33:17 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:17 INFO  time: compiled root in 0.86s[0m
+[0m2021.12.20 21:33:22 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:22 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:33:24 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:24 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:33:32 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:32 INFO  time: compiled root in 0.19s[0m
+[0m2021.12.20 21:33:35 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:35 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:33:39 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:39 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:33:46 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:46 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:33:49 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:49 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:33:52 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:52 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:33:53 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:53 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:33:54 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:54 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:33:58 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:33:58 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:34:03 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:34:03 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:34:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:34:09 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:34:14 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:34:14 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:34:17 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:34:17 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:34:30 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:34:30 INFO  time: compiled root in 0.96s[0m
+[0m2021.12.20 21:34:34 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.12.20 21:34:34 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.12.20 21:34:34 INFO  Starting debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:34:37 INFO  Trying to attach to remote debuggee VM localhost:60565 .[0m
+[0m2021.12.20 21:34:37 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.12.20 21:34:37 INFO  Closing debug server tcp://0.0.0.0:60561[0m
+[0m2021.12.20 21:34:38 INFO  Canceling debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:35:33 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:35:33 INFO  time: compiled root in 0.82s[0m
+[0m2021.12.20 21:35:44 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:35:44 INFO  time: compiled root in 58ms[0m
+[0m2021.12.20 21:35:49 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:35:49 INFO  time: compiled root in 55ms[0m
+[0m2021.12.20 21:35:57 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:35:57 INFO  time: compiled root in 0.86s[0m
+[0m2021.12.20 21:36:00 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:00 INFO  time: compiled root in 0.87s[0m
+[0m2021.12.20 21:36:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:09 INFO  time: compiled root in 0.85s[0m
+[0m2021.12.20 21:36:13 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:13 INFO  time: compiled root in 61ms[0m
+[0m2021.12.20 21:36:17 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:17 INFO  time: compiled root in 62ms[0m
+[0m2021.12.20 21:36:19 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:19 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:36:32 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:32 INFO  time: compiled root in 0.85s[0m
+[0m2021.12.20 21:36:34 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:34 INFO  time: compiled root in 0.83s[0m
+[0m2021.12.20 21:36:39 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:39 INFO  time: compiled root in 0.83s[0m
+[0m2021.12.20 21:36:43 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:36:43 INFO  time: compiled root in 0.85s[0m
+[0m2021.12.20 21:36:45 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 5h 26m 35.717s)[0m
+[0m2021.12.20 21:36:47 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.12.20 21:36:47 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.12.20 21:36:48 INFO  Starting debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:36:49 INFO  Trying to attach to remote debuggee VM localhost:60639 .[0m
+[0m2021.12.20 21:36:49 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.12.20 21:36:50 INFO  Canceling debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:36:49 INFO  Closing debug server tcp://0.0.0.0:60636[0m
+[0m2021.12.20 21:37:03 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:37:03 INFO  time: compiled root in 0.88s[0m
+[0m2021.12.20 21:37:05 INFO  Deduplicating compilation of root from bsp client 'Metals 0.10.9' (since 5h 26m 55.218s)[0m
+[0m2021.12.20 21:37:05 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:37:05 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:37:05 INFO  time: compiled root in 0.88s[0m
+[0m2021.12.20 21:37:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+[0m2021.12.20 21:37:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/tammy/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+[0m2021.12.20 21:37:08 INFO  Starting debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:37:10 INFO  Trying to attach to remote debuggee VM localhost:60666 .[0m
+[0m2021.12.20 21:37:10 INFO  Attaching to debuggee VM succeeded.[0m
+[0m2021.12.20 21:37:10 INFO  Canceling debug proxy for [concepts.typeclasses.Ref_01][0m
+[0m2021.12.20 21:37:10 INFO  Closing debug server tcp://0.0.0.0:60659[0m
+[0m2021.12.20 21:37:28 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:37:28 INFO  time: compiled root in 0.97s[0m
+[0m2021.12.20 21:37:59 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:37:59 INFO  time: compiled root in 0.86s[0m
+[0m2021.12.20 21:38:01 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:01 INFO  time: compiled root in 0.88s[0m
+[0m2021.12.20 21:38:03 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:03 INFO  time: compiled root in 0.82s[0m
+[0m2021.12.20 21:38:12 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:12 INFO  time: compiled root in 0.79s[0m
+[0m2021.12.20 21:38:16 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:16 INFO  time: compiled root in 0.73s[0m
+[0m2021.12.20 21:38:18 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:18 INFO  time: compiled root in 0.99s[0m
+[0m2021.12.20 21:38:32 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:32 INFO  time: compiled root in 0.77s[0m
+[0m2021.12.20 21:38:38 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:38 INFO  time: compiled root in 0.72s[0m
+[0m2021.12.20 21:38:41 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:41 INFO  time: compiled root in 0.71s[0m
+[0m2021.12.20 21:38:45 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:45 INFO  time: compiled root in 0.75s[0m
+[0m2021.12.20 21:38:51 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:51 INFO  time: compiled root in 0.76s[0m
+[0m2021.12.20 21:38:54 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:38:54 INFO  time: compiled root in 0.8s[0m
+Dec 20, 2021 9:38:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1573
+Dec 20, 2021 9:38:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1574
+[0m2021.12.20 21:39:01 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:01 INFO  time: compiled root in 0.76s[0m
+[0m2021.12.20 21:39:05 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:05 INFO  time: compiled root in 0.77s[0m
+[0m2021.12.20 21:39:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:09 INFO  time: compiled root in 0.79s[0m
+[0m2021.12.20 21:39:35 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:35 INFO  time: compiled root in 0.88s[0m
+[0m2021.12.20 21:39:40 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:40 INFO  time: compiled root in 61ms[0m
+[0m2021.12.20 21:39:46 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:46 INFO  time: compiled root in 0.81s[0m
+[0m2021.12.20 21:39:59 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:39:59 INFO  time: compiled root in 0.57s[0m
+[0m2021.12.20 21:40:06 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:06 INFO  time: compiled root in 0.48s[0m
+[0m2021.12.20 21:40:09 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:09 INFO  time: compiled root in 0.49s[0m
+[0m2021.12.20 21:40:29 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:29 INFO  time: compiled root in 0.56s[0m
+[0m2021.12.20 21:40:37 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:37 INFO  time: compiled root in 0.53s[0m
+[0m2021.12.20 21:40:42 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:42 INFO  time: compiled root in 0.47s[0m
+[0m2021.12.20 21:40:46 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:46 INFO  time: compiled root in 0.49s[0m
+[0m2021.12.20 21:40:53 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:53 INFO  time: compiled root in 0.51s[0m
+[0m2021.12.20 21:40:57 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:40:57 INFO  time: compiled root in 0.48s[0m
+[0m2021.12.20 21:41:11 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:41:11 INFO  time: compiled root in 0.52s[0m
+[0m2021.12.20 21:41:26 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:41:26 INFO  time: compiled root in 0.54s[0m
+[0m2021.12.20 21:41:36 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:41:36 INFO  time: compiled root in 0.48s[0m
+[0m2021.12.20 21:41:41 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:41:41 INFO  time: compiled root in 0.54s[0m
+[0m2021.12.20 21:41:47 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:41:47 INFO  time: compiled root in 0.49s[0m
+[0m2021.12.20 21:42:25 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:25 INFO  time: compiled root in 0.5s[0m
+[0m2021.12.20 21:42:30 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:30 INFO  time: compiled root in 0.44s[0m
+Dec 20, 2021 9:42:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2070
+[0m2021.12.20 21:42:39 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:39 INFO  time: compiled root in 0.51s[0m
+[0m2021.12.20 21:42:43 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:43 INFO  time: compiled root in 0.49s[0m
+[0m2021.12.20 21:42:56 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:56 INFO  time: compiled root in 0.53s[0m
+[0m2021.12.20 21:42:58 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:42:58 INFO  time: compiled root in 0.48s[0m
+[0m2021.12.20 21:43:07 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:07 INFO  time: compiled root in 0.51s[0m
+[0m2021.12.20 21:43:20 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:20 INFO  time: compiled root in 0.1s[0m
+[0m2021.12.20 21:43:21 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:21 INFO  time: compiled root in 86ms[0m
+[0m2021.12.20 21:43:27 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:27 INFO  time: compiled root in 0.1s[0m
+[0m2021.12.20 21:43:30 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:30 INFO  time: compiled root in 97ms[0m
+[0m2021.12.20 21:43:34 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:34 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:43:39 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:43:39 INFO  time: compiled root in 0.12s[0m
+Dec 20, 2021 9:43:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2268
+Dec 20, 2021 9:44:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2272
+[0m2021.12.20 21:44:03 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:03 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:11 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:11 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:44:15 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:15 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:19 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:19 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:26 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:26 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:32 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:32 INFO  time: compiled root in 0.16s[0m
+[0m2021.12.20 21:44:37 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:37 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:45 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:45 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:44:47 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:47 INFO  time: compiled root in 59ms[0m
+[0m2021.12.20 21:44:49 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:49 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:44:52 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:52 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:44:54 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:44:54 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:45:02 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:45:02 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:45:04 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:45:04 INFO  time: compiled root in 0.12s[0m
+Dec 20, 2021 9:45:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2458
+[0m2021.12.20 21:45:16 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:45:16 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:00 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:00 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:06 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:06 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:17 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:17 INFO  time: compiled root in 0.14s[0m
+[0m2021.12.20 21:46:21 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:21 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:28 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:28 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:46:34 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:34 INFO  time: compiled root in 60ms[0m
+[0m2021.12.20 21:46:36 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:36 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:38 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:38 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:42 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:42 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:45 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:45 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:46:58 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:46:58 INFO  time: compiled root in 0.12s[0m
+[0m2021.12.20 21:47:49 INFO  compiling root (1 scala source)[0m
+[0m2021.12.20 21:47:49 INFO  time: compiled root in 0.13s[0m
+[0m2021.12.20 21:47:54 INFO  compiling root (2 scala sources)[0m
+[0m2021.12.20 21:47:54 INFO  time: compiled root in 0.18s[0m
