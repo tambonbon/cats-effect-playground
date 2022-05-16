@@ -9,18 +9,26 @@ object CopyFiles {
   // resources are streams
 
   def inputStream(f: File): Resource[IO, FileInputStream] =
-    Resource.make {
+    Resource.make {                       // Resource: orderly create, use then release resources
       IO.blocking(new FileInputStream(f)) // build
+      // for dealing with input/output actions --> IO.blocking(action) instead IO(action)
     } { inStream =>
-      IO.blocking(inStream.close()).handleErrorWith(_ => IO.unit) // release
-    }
+      IO.blocking(inStream.close())
+        .handleErrorWith(_ => IO.raiseError(new Exception("Error when closing input stream"))) // release
+    } // when release resources -> must also take care of any possible error
 
   def outputStream(f: File): Resource[IO, FileOutputStream] =
     Resource.make {
       IO.blocking(new FileOutputStream(f)) // build
     } { outStream =>
-      IO.blocking(outStream.close()).handleErrorWith(_ => IO.unit) // release
+      IO.blocking(outStream.close())
+        .handleErrorWith(_ => IO.unit) // release, but now ignore
     }
+
+  def outputStreamWithAutoClosable(f: File): Resource[IO, FileOutputStream] =
+    Resource.fromAutoCloseable(
+      IO.blocking(new FileOutputStream(f))
+    ) // cleaner, but we cannot control exception
 
   def inputOutputStreams(
       in: File,
@@ -69,8 +77,8 @@ object CopyFiles {
       // .. which returns actions encapsulated in a suspended IO
       // ** when dealing with input/output --> IO.blocking(action) ratehr than IO(action)
       count <-
-        if (amount > -1)
-          IO.blocking(destination.write(buffer, 0, amount)) >> transmit(
+        if (amount > -1) // signal the end of the stream if amount is negative
+          IO.blocking(destination.write(buffer, 0, amount)) >> transmit( // >>: to sequence 2 ops where the output of the first is not needed (like firzt.flatMap(_ => second))
             origin,
             destination,
             buffer,
@@ -92,7 +100,9 @@ object CopyFiles {
     } // copy works, but we need to take CANCELATION into account
   // but we have `Resource` that makes cancelation an easy task
 
-  class PolymorphicCopy {
+}
+ 
+  object  PolymorphicCopy {
 
     /** `IO` is able to suspend side-effects async thanks to `Async[IO]` Because `Async` extend
       * `Sync`, `IO` can also suspend side-effects synch
@@ -100,7 +110,7 @@ object CopyFiles {
     // We could have coded its function in terms of some `F[_]: Sync` & `F[_]: Async` instead of IO
     import cats.effect.Sync
 
-    def transmit[F[_]: Sync](
+    def transmit[F[_]: Sync]( // note the type F[_]
         origin: InputStream,
         destination: OutputStream,
         buffer: Array[Byte],
@@ -122,7 +132,10 @@ object CopyFiles {
             ) // End of read stream reached (by java.io.InputStream contract), nothing to write
       } yield count // Returns the actual amount of bytes transmitted
 
-    def transfer[F[_]: Sync](origin: InputStream, destination: OutputStream): F[Long] =
+    def transfer[F[_]: Sync](
+        origin: InputStream,
+        destination: OutputStream
+    ): F[Long] =
       transmit(origin, destination, new Array[Byte](1024 * 10), 0L)
 
     def inputStream[F[_]: Sync](f: File): Resource[F, FileInputStream] =
@@ -153,4 +166,3 @@ object CopyFiles {
         transfer(in, out)
       }
   }
-}

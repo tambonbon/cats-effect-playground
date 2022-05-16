@@ -16,3 +16,15 @@ object Main extends IOApp {
       _     <- IO.println(s"$count bytes copied from ${orig.getPath} to ${dest.getPath}")
     } yield ExitCode.Success
 }
+
+object MainPoly extends IOApp {
+  def run(args: List[String]): IO[ExitCode] = 
+    for {
+      _ <- if(args.length < 2) IO.raiseError(new IllegalArgumentException("Need origin and destination files"))
+            else IO.unit
+      origin = new File(args.head)
+      dest   = new File(args.tail.head)
+      count <- PolymorphicCopy.copy[IO](origin, dest) // Note [IO] here
+      _     <- IO.println(s"$count bytes copied from ${origin.getPath} to ${dest.getPath}")
+    } yield ExitCode.Success
+}
