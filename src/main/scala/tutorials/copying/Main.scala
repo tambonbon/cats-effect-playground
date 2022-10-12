@@ -14,7 +14,9 @@ object Main extends IOApp {
       dest = new File(args(1))
       count <- CopyFiles.copy(orig, dest)
       _     <- IO.println(s"$count bytes copied from ${orig.getPath} to ${dest.getPath}")
-    } yield ExitCode.Success
+    } yield {
+      ExitCode.Success
+    }
 }
 
 object MainPoly extends IOApp {

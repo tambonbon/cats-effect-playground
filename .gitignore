@@ -1,3 +1,9 @@
 /.bsp/
 target/
 .bloop
+.metals/metals.h2.db
+.metals/metals.log
+.bloop/root-test.json
+.bloop/root.json
+project/.bloop/bloop.settings.json
+project/.bloop/cats-effect-playground-build.json
